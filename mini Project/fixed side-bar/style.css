@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 160px;
+    height: 100%;
+    background-color: black;
+    display: block;
+    z-index: 1;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.container a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 20px 10px;
+    color: white;
+    font-size: 15px;
+}
+.container a:hover{
+    text-shadow: 3px 3px 8px black;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.897);
+    color: black;
+}
+
+.main{
+    margin-left: 160px;
+    font-size: 28px;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+
+
+
+
