@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <label for="fname">First-Name</label>
+        <input
+          type="text"
+          name="fname"
+          required
+          placeholder="Enter your first name"
+          id="fname"
+        />
+
+        <label for="lname">Last-Name</label>
+        <input
+          type="text"
+          name="lname"
+          required
+          placeholder="Enter your last name"
+          id="lname"
+        />
+
+        <label for="selectbox">Country</label>
+        <select name="selectbox" id="country">
+          <option value="Iran">Iran</option>
+          <option value="Usa">United States</option>
+          <option value="England">England</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea
+          name="subject"
+          style="height: 200px"
+          id="subject"
+          placeholder="Write something..."
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
