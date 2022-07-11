@@ -1,0 +1,43 @@
+.btn {
+    color: #ffffff;
+    background: #f4511e;
+    padding: 20px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 30px;
+    width: 200px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    transition: all 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn span::after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn:hover span {
+    padding-right: 25px;
+}
+
+
+.btn:hover span::after {
+    opacity: 1;
+    right: 0;
+}
