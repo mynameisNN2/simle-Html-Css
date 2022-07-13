@@ -1,0 +1,78 @@
+.btnloading {
+    padding: 20px;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: rgb(5, 177, 5);
+    color: white;
+    cursor: pointer;
+}
+/* ----------------------------------- */
+.btn {
+    padding: 20px;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: rgb(0, 195, 255);
+    color: white;
+    width: auto;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 5px;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+.btn i {
+    padding-right: 5px;
+}
+/* ----------------------------------- */
+.notif {
+    text-decoration: none;
+    position: relative;
+    padding: 20px;
+    background: #555;
+    color: white;
+    border-radius: 4px;
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 5px;
+}
+.notif:hover {
+    background: red;
+}
+.notif .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: red;
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: white;
+}
+/* ----------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
